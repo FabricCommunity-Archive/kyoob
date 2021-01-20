@@ -15,13 +15,15 @@
   "license": "MIT",
   "icon": "assets/kyoob/icon.png",
   "environment": "*",
+  "accessWidener": "kyoob.widener",
   "entrypoints": {
     "main": [
       "dev.vatuu.kyoob.Kyoob"
     ]
   },
   "mixins": [
-    "kyoob.mixins.json"
+    "kyoob.mixins.json",
+    "kyoob.mixins.client.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.1",

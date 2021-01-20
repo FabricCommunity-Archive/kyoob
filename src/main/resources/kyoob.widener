@@ -1,0 +1,8 @@
+accessWidener v1 named
+
+# Minecraft Server
+
+# Minecraft Client
+accessible field net/minecraft/client/render/Camera lastCameraY F
+
+# Common

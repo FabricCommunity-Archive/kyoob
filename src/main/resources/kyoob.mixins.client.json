@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.vatuu.kyoob.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ClientPlayerEntityMixin",
+    "GameRendererMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
